@@ -169,6 +169,9 @@ def funcionKwargs(**kwargs):
 
 funcionKwargs(nombre='Nesho', apellido='Pablo')
 
+llave = 'a' 
+
+
 
 
 
