@@ -7,7 +7,7 @@ class Nave():
         self.pantalla = pantalla
 
         #cargamos la imagen de nuestra naver
-        self.imagen = pygame.image.load('../img/SpaceShip1.bmp')
+        self.imagen = pygame.image.load('./img/SpaceShip1.bmp')
         self.rect = self.imagen.get_rect()
         self.pantalla_rect = pantalla.get_rect()
 
