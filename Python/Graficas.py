@@ -10,13 +10,13 @@ def f(t, A, T):
 
 # Definimos el intervalo de tiempo en el que queremos analizar la función (en este caso, de 0 a T)
 T = 5   # Periodo de la señal
-t = np.linspace(0, T, 10000)
+t = np.linspace(0, T, 100000)
 
 # Definimos la amplitud de la señal
 A = 5
 
 # Definimos el número de términos de la serie de Fourier que queremos calcular
-num_terminos = 50
+num_terminos = 500
 
 # Calculamos los coeficientes de la serie de Fourier utilizando la fórmula correspondiente
 a0 = 1/T * np.trapz(f(t, A, T), t)
